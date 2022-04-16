@@ -1,0 +1,138 @@
+body{
+    background-color: #1b0033;
+    background: linear-gradient(to right, #10001f, #1b0033, #10001f);
+    margin:0vw;
+}
+.entire{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+.top {
+    display: flex;
+    flex-flow: row wrap;
+    width:100vw;
+    height:50%;
+    background-color: #000000;
+    background-image: url('topbg.svg');
+    justify-content: center;
+    align-content: flex-end;
+}
+.bottom {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10vw;
+    width:100vw;
+    height:20%;
+    background-color: #000000;
+    justify-content: space-around;
+    background-image: url('topbg.svg');
+}
+.social {
+    display: inline;
+    width:50vw;
+    height:20%;
+    background-color: #000000;
+    background-image: url('topbg.svg');
+}
+.cont {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 10vw;
+}
+.art {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 15vw;
+}
+.contrev {
+    display:flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    margin-top: 10vw;
+}
+.image {
+    position: relative;
+    width: 17vw;
+    height: 17vw;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    text-align: center;
+  }
+  
+.image:hover .overlay {
+    width: 100%;
+}
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 2vw;
+    font-family: 'Special Elite', cursive;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+.center{
+    align-self: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+  
+h1 {
+    color:aliceblue;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 7.5vw;
+    text-align: center;
+}
+h2 {
+    color:aliceblue;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 7.5vw;
+    text-align: left;
+    margin-left: 1vw;
+}
+h3 {
+    color:aliceblue;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 5vw;
+    text-align: center;
+    padding: 0vw;
+    margin-bottom: 0vw;
+    margin-top: 5vw;
+    margin-left: 1vw;
+}
+p1 {
+    color:rgb(180, 180, 180);
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+p2 {
+    color:rgb(180, 180, 180);
+    font-family: 'MedievalSharp', cursive;
+    font-size: 2vw;
+    text-align: center;
+}
+pre {
+    color:aliceblue;
+    font-family: 'Special Elite', cursive;
+    font-size: 2vw;
+    text-align: justify;
+}
